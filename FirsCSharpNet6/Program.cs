@@ -26,7 +26,7 @@ foreach(var item in personas)
 var busqueda = personas.Find(x => x.dni == 44009988);
 if (busqueda != null)
 {
-    Console.WriteLine("Dni encontrado: " + busqueda.dni);
+    Console.WriteLine($"Dni encontrado:  { busqueda.nombreCompleto}");
 }
 else
 {
